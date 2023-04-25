@@ -1,2 +1,2 @@
 # project2
-add css to a website
+For this project, I added CSS to the three page website I built for project 1. 
