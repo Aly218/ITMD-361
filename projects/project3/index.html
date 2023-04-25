@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project 3</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&display=swap" rel="stylesheet">
+  <script async src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>  
+  <style>
+		.slideshow {
+      clear: both;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+    
+		.slideshow ul {
+			margin:0;
+		}
+    
+    img {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 70px;
+    }
+    
+    .bx-wrapper .bx-caption {
+      position: fixed;
+      background: #4D774E;
+      margin-top: 605px;
+    }
+    
+    .bx-wrapper .bx-caption span {
+      color: #fff;
+      font-family: Roboto;
+      text-align: center;
+      font-size: 14px;      
+    }
+    
+    .bx-wrapper{
+      max-width: 300px;
+      background-color: #FAF9F6;  
+      border: 5px solid #FAF9F6;
+    }
+	</style>
+</head>
+<body>
+  <header>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul>
+          <li id="onpage"><a href="#">Home</a></li>
+          <li><a href="page2.html">Resume</a></li>
+          <li><a href="page3.html">Education</a></li>
+          <li><a href="page4.html">Map</a></li>
+        </ul>
+      </div>  
+    </nav>
+  </header> 
+  <div id="wrapper-page1">
+    <div id="container-1">
+      <h1 id="page1-h1">Project: Aztec Chess Set</h1>
+    </div>
+    <div id="container-2">
+      <div class="slideshow">
+        <ul class="bxslider">
+          <li><img src="images/p1.png" title="I created this with a laser cutter. It is the cover of the chess set."></li>
+          <li><img src="images/p2.png" title="I made this with a 3D carver which took about 2 hours. It is the base of the chess set."></li>
+          <li><img src="images/p3.png" title="Full chess set."></li>
+          <li><img src="images/p4.png" title="I made the chess board with the laser cutter and I designed and 3D printed the chess pieces."></li>
+        </ul>
+      </div>   
+    </div>
+    <div id="container-3">
+      <h3>Final Product</h3>
+      <p>For my final project I created a chess set and a case for the chess set. I used three different machines for this project including a laser cutter, 3D printer, and 3D carver.</p>
+    </div>
+    <div id="container-4">
+      <h3>Motivation Behind the Project</h3>
+      <p>I chose to make a chess set because my father and I like playing chess and I wanted to make him his own custom chess set. I am Mexican-American and my ancestors were Aztecs, so I decided to make a chessboard that resembled that part of my culture. An Aztec god and flower are etched onto the chessboard. I took my time and did research to find symbols that are actually a part of Aztecan culture instead of the Mayan culture. I also carved the Aztecan worship temple into the base of the case. On the front of the top part of the case, I etched a simplified version of the Aztec calendar onto it. The actual top part is in the shape of a pyramid so that it resembles the Aztec temple of worship.</p>
+    </div>
+    <div id="container-5">
+      <h3>Materials, Tools, and Resources</h3>
+      <p>For this project, I used three different machines. I designed the top part of the case in Adobe Illustrator and then cut the design onto a piece of wood. In order to put the pieces together I had to design them so that once they were cut they would fit together like a puzzle. I put the pieces together with wood glue which made it look better as opposed to using screws that would have left a lot of space. I designed each chess piece in AutoCAD software called OnShape and ran two print jobs, one for each color set. Lastly, I used a 3D carver to make the base of the case. I designed it on Easel and it took over an hour to carve the design.</p>
+    </div>
+    <div id="container-6">
+      <h3>Challenges</h3>
+      <p>I encountered challenges while designing the top part of the case. The first challenge I encountered was finding a way to design the pieces so that they would fit together like a puzzle. This was very difficult since it wasn't a normal shape like a cube or rectangle. Another issue I faced was designing a circle and triangle combined. I chose to make this symbol because I thought it would look cool but it was hard to make because if I did it wrong then the pieces would fall through. In the end, I was able to design it so that the pieces stayed on the actual piece of wood. Overall, thinking of ways to represent the Aztecan culture was difficult because a lot of websites had unreliable information. After scouring the internet, I was able to find a very detailed article from a museum that listed all of their artifacts along with descriptions.</p>
+    </div>
+    <iframe class="video" width="320" height="560" src="https://www.youtube.com/embed/chXUYfRJ0zk" title="Laser Cutter Machine in Action" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+  </div> 
+  <footer>
+    <p>nguadarrama@hawk.iit.edu</p>
+  </footer>  
+  <script>
+    $(function(){
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        slideWidth: 600,
+        captions: true
+      });
+    });
+	</script>
+</body>
+</html>
+
+
 
