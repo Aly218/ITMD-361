@@ -1,4 +1,3 @@
 # lab2
 Lab 2 for ITMD 361: 
-Recreated a website with the correct HTML tags. I used an image provided by the Professor as a guide of what to include in the website and added additional details. 
-
+I used an image of a website as reference which was provided by the Professor. Then, created a website with my course details by using basic HTML tags.
